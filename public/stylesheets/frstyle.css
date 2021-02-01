@@ -1,0 +1,58 @@
+p.detail {
+  color: #4C4C4C;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+span.name {
+  color: #FF0000;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+label {
+  font-weight: 499;
+}
+
+body {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+
+.success {
+  background-color: aqua;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: grey !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: grey !important;
+}
+
+::placeholder {
+  color: grey !important;
+}
+
+
+/*styles for the validation */
+
+#cid_10 {
+  margin-top: -12px;
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+input.error,
+textarea.error,
+select.error {
+  border: 1px solid red;
+  font-weight: 300;
+  color: red;
+}
